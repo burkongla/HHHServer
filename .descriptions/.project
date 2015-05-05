@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project
+    title="no.ntnu.ttm4115.hhh.server" 
     version="1.0.0" 
     uuid="_27ejQO2WEeSt27tInGX10A" 
     >
@@ -8,4 +9,7 @@
         <dependency name="com.bitreactive.library.mqtt" uuid="_iVDkMOJLEeGulKFN7xtCsw" version="2.9.2"/>
         <dependency name="com.bitreactive.library.timers" uuid="_b0djMBzFEeGAXOPaKszhRg" version="1.5.0" indirect="true"/>
     </dependencies>
+    <licenses>
+        <license tag="epl-v1.0" title="Eclipse Public License - v 1.0" url="http%3A%2F%2Fwww.eclipse.org%2Flegal%2Fepl-v10.html" file="licenses/epl-v10.txt"/>
+    </licenses>
 </project>

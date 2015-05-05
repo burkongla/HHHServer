@@ -139,7 +139,7 @@
   <arctis:event xmi:id="_T_z1Iu2XEeSt27tInGX10A" base_Transition="_T_z1Ie2XEeSt27tInGX10A" triggers="_T_wKw-2XEeSt27tInGX10A" effects="_T_wx0O2XEeSt27tInGX10A"/>
   <arctis:event xmi:id="_T_0cMO2XEeSt27tInGX10A" base_Transition="_T_z1I-2XEeSt27tInGX10A" triggers="_T_wKw-2XEeSt27tInGX10A" effects="_T_wx0O2XEeSt27tInGX10A"/>
   <arctis:event xmi:id="_T_0cMu2XEeSt27tInGX10A" base_Transition="_T_0cMe2XEeSt27tInGX10A" triggers="_T_wKw-2XEeSt27tInGX10A" effects="_T_wx0O2XEeSt27tInGX10A"/>
-  <graphics:Shape xmi:id="_d89awO2XEeSt27tInGX10A" x="90" y="180" width="199" height="55" base_Element="_d8pRsO2XEeSt27tInGX10A"/>
+  <graphics:Shape xmi:id="_d89awO2XEeSt27tInGX10A" x="108" y="180" width="199" height="55" base_Element="_d8pRsO2XEeSt27tInGX10A"/>
   <arctis:location xmi:id="_fGYEcO2YEeSt27tInGX10A" base_Variable="_fGW2UO2YEeSt27tInGX10A" partition="_4VecEe2WEeSt27tInGX10A"/>
   <graphics:Shape xmi:id="_fGYrgO2YEeSt27tInGX10A" x="576" y="126" base_Element="_fGW2UO2YEeSt27tInGX10A"/>
   <graphics:Shape xmi:id="_OkrNgPJKEeSNXuGWQtPaRA" aux1="-558 3 -3 306  -558 3 -57 306  -594 -303 -39 0 " base_Element="_T_gTIO2XEeSt27tInGX10A"/>

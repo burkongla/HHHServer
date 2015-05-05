@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="HeaterSimulation" 
+    uuid="_JNb2kvGbEeSn9Kf5dI4Ncg" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <package name="no.ntnu.ttm4115.hhh.server.heatersimulation"/>
+    </required>
+</block>

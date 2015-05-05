@@ -6,6 +6,9 @@
     type="system" 
     >
     <required>
+        <package name="com.bitreactive.library.mqtt"/>
+        <package name="com.bitreactive.library.mqtt.robustmqtt"/>
+        <package name="no.ntnu.ttm4115.hhh.server.server.component"/>
         <block name="b0" uuid="_CDPgcD5UEeSLNMcFh65MeQ"/>
     </required>
 </block>

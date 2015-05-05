@@ -20,26 +20,24 @@ public class Component extends Block {
 		return p;
 	}
 
-	public void msgHandler(MQTTMessage m) {
+	public boolean msgHandler(MQTTMessage m) {
 		if (m.getTopic().equals("hhh/termostats")) {
 			String[] message = new String(m.getPayload()).split("\\s+");
 			if (message[0].equals("Current:")) {
-				this.CurrentTemperature = Float.valueOf(message[1]); 
+				this.CurrentTemperature = Float.valueOf(message[1]);
+				return false;
 			} else if (message[0].equals("Desired:")) {
 				this.DesiredTemperature = Float.valueOf(message[1]);
+				return true;
 			}
-		} else if (m.getTopic().equals("hhh/mobile")) {
-			
+		} else {
+			return false;
 		}
-
-	    System.out.println("---------- Received Message ----------");
-	    System.out.println("Sent to topic: " + m.getTopic());
-	    System.out.println("Payload: " + new String(m.getPayload()));
-	    System.out.println("--------------------------------------");
+		return false;
 	}
 
 	public MQTTMessage createMessage() {
-		String payload = "Desired:"+" "+String.valueOf(CurrentTemperature);
+		String payload = "Desired:"+" "+String.valueOf(DesiredTemperature);
 		byte[] bytes = payload.getBytes();
 	    String topic = "hhh/termostats";
 		MQTTMessage message = new MQTTMessage(bytes, topic);
